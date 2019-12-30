@@ -13,3 +13,10 @@ jobs:
       run: echo Hello, world!
     - name: java version
       run: java --version
+    - name: java version
+      run: mvn --version
+    - name: python version
+      run: python --version
+    - name: docker version
+      run: docker -v
+    
