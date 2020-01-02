@@ -22,5 +22,5 @@ jobs:
     - name: nodejs version
       run: node -v
     - name: terraform version
-      run: terraform -vlfdkalkfmas
+      run: terraform -v
     
