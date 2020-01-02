@@ -13,10 +13,14 @@ jobs:
       run: echo Hello, world!
     - name: java version
       run: java -version
-    - name: java version
+    - name: maven version
       run: mvn --version
     - name: python version
       run: python --version
     - name: docker version
       run: docker -v
+    - name: nodejs version
+      run: node -v
+    - name: terraform version
+      run: terraform -vlfdkalkfmas
     
